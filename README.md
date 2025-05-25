@@ -1,1 +1,3 @@
-# Serverless-Embedding-API-RunPod-Infinity
+# Serverless Text Embedding Model API using RunPod Infinity
+
+(In progress)
