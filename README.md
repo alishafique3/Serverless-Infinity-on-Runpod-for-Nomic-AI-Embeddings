@@ -25,8 +25,15 @@ Before running the client code, ensure you have the following:
 ## Client
 
 ## Results
-
 Upon successful execution, the script will output a summary of the processed tasks and the total time taken. You'll see confirmation of how many tasks were completed successfully, along with a sample of the first successful result.
+```bash
+Completed 168/168 tasks
+time taken 8.864368915557861
+Total: 168, Successful: 168
+
+First successful result:
+{'delayTime': 4769, 'executionTime': 395, ...}
+```
 
 
 ## References:
