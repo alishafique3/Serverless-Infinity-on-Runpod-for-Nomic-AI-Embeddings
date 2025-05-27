@@ -1,4 +1,5 @@
 # Serverless Infinity on Runpod for Nomic AI Embeddings
+(In progress)
 
 This repository demonstrates how to leverage a Runpod Serverless Endpoint running Infinity for efficient and scalable text embeddings using the nomic-ai/nomic-embed-text-v1.5 model. Infinity is a high-throughput, low-latency REST API designed for serving various models, including text embeddings.
 
@@ -13,17 +14,17 @@ This project provides a complete example of:
     * Asynchronously submitting text chunks for embedding to the RunPod endpoint.
     * Polling for job completion and retrieving embedding results.
 
-## Getting Started
+## Serverless Infinity Endpoint on Runpod
 
-### Prerequisites
+## Client
+
+## Prerequisites
 
 Before running the client code, ensure you have the following:
 
 * A **RunPod account** and an **API Key**.
 * A **RunPod Serverless Endpoint** configured with **Infinity** and the `nomic-ai/nomic-embed-text-v1.5` model. Remember to replace the `API_URL` and `API_KEY` in the provided code with your actual endpoint URL and API key.
 * A **PDF document** (e.g., `plants.pdf`) for text extraction.
-
-(In progress)
 
 ## References:
 - Infinity Github: [https://docs.vllm.ai/en/latest/](https://github.com/michaelfeil/infinity)
