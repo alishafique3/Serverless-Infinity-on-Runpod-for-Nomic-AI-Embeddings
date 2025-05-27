@@ -19,13 +19,10 @@ This project provides a complete example of:
 
 ## Client
 
-## Prerequisites
-
 Before running the client code, ensure you have the following:
 
 * A **RunPod account** and an **API Key**.
 * A **RunPod Serverless Endpoint** configured with **Infinity** and the `nomic-ai/nomic-embed-text-v1.5` model. Remember to replace the `API_URL` and `API_KEY` in the provided code with your actual endpoint URL and API key.
-* A **PDF document** (e.g., `plants.pdf`) for text extraction.
 
 ## References:
 - Infinity Github: [https://docs.vllm.ai/en/latest/](https://github.com/michaelfeil/infinity)
