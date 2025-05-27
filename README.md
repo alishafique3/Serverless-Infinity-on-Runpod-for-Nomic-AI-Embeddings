@@ -24,6 +24,11 @@ Before running the client code, ensure you have the following:
 
 ## Client
 
+## Results
+
+Upon successful execution, the script will output a summary of the processed tasks and the total time taken. You'll see confirmation of how many tasks were completed successfully, along with a sample of the first successful result.
+
+
 ## References:
 - Infinity Github: [https://docs.vllm.ai/en/latest/](https://github.com/michaelfeil/infinity)
 - Runpod Infinity: [https://github.com/runpod-workers/worker-infinity-embedding](https://github.com/runpod-workers/worker-infinity-embedding)
