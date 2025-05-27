@@ -3,5 +3,5 @@
 (In progress)
 
 ### References:
-- vLLM: https://docs.vllm.ai/en/latest/
-- Medium Article: How does vLLM optimize the LLM serving system? | by Natthanan Bhukan | CJ Express Tech (TILDI) | Medium
+- Infinity Github: [https://docs.vllm.ai/en/latest/](https://github.com/michaelfeil/infinity)
+- Runpod Infinity: [https://github.com/runpod-workers/worker-infinity-embedding](https://github.com/runpod-workers/worker-infinity-embedding)
