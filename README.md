@@ -3,14 +3,25 @@
 This repository demonstrates how to leverage a Runpod Serverless Endpoint running Infinity for efficient and scalable text embeddings using the nomic-ai/nomic-embed-text-v1.5 model. Infinity is a high-throughput, low-latency REST API designed for serving various models, including text embeddings.
 
 ## Project Overview
+
 This project provides a complete example of:
 
-1. PDF Text Extraction: Using `PyMuPDF` to extract text from a PDF document.
-2. Text Chunking: Employing `langchain_text_splitters` to divide large texts into manageable chunks.
-3. Runpod Serverless Endpoint Interaction:
-   - Warming up the Infinity endpoint.
-   - Asynchronously submitting text chunks for embedding to the Runpod endpoint.
-   - Polling for job completion and retrieving embedding results.
+* **PDF Text Extraction**: Using `PyMuPDF` to extract text from a PDF document.
+* **Text Chunking**: Employing `langchain_text_splitters` to divide large texts into manageable chunks.
+* **RunPod Serverless Endpoint Interaction**:
+    * Warming up the Infinity endpoint.
+    * Asynchronously submitting text chunks for embedding to the RunPod endpoint.
+    * Polling for job completion and retrieving embedding results.
+
+## Getting Started
+
+### Prerequisites
+
+Before running the client code, ensure you have the following:
+
+* A **RunPod account** and an **API Key**.
+* A **RunPod Serverless Endpoint** configured with **Infinity** and the `nomic-ai/nomic-embed-text-v1.5` model. Remember to replace the `API_URL` and `API_KEY` in the provided code with your actual endpoint URL and API key.
+* A **PDF document** (e.g., `plants.pdf`) for text extraction.
 
 (In progress)
 
