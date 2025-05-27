@@ -35,6 +35,11 @@ First successful result:
 {'delayTime': 4769, 'executionTime': 395, ...}
 ```
 
+## Conclusion
+
+This project demonstrates a robust and efficient solution for generating text embeddings at scale using **RunPod's serverless infrastructure** and the **Infinity API** with the **Nomic AI Nomic Embed Text v1.5 model**. By combining PDF text extraction, intelligent text chunking, and asynchronous API calls, we've created a workflow that can process large documents and retrieve embeddings quickly and cost-effectively.
+
+This setup is ideal for applications requiring on-demand text vectorization, such as building custom RAG systems, powering semantic search functionalities, or performing large-scale data analysis. The flexibility and scalability offered by RunPod Serverless, coupled with the performance of Infinity, provide a powerful foundation for your NLP projects.
 
 ## References:
 - Infinity Github: [https://docs.vllm.ai/en/latest/](https://github.com/michaelfeil/infinity)
