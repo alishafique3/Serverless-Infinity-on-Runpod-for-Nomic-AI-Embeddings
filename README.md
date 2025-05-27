@@ -1,4 +1,4 @@
-# Serverless Text Embedding Model API using RunPod Infinity
+# Serverless Infinity on Runpod for Nomic AI Embeddings
 
 (In progress)
 
