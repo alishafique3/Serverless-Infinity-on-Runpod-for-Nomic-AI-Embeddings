@@ -1,6 +1,6 @@
 # Serverless Infinity on Runpod for Nomic AI Embeddings
 
-(In progress)
+**In Progress**
 
 This repository demonstrates how to leverage a Runpod Serverless Endpoint running Infinity for efficient and scalable text embeddings using the nomic-ai/nomic-embed-text-v1.5 model. Infinity is a high-throughput, low-latency REST API designed for serving various models, including text embeddings.
 
